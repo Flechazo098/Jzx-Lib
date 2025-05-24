@@ -24,5 +24,10 @@
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
     "minecraft": "${minecraft_version}"
+  },
+  "custom": {
+    "loom:injected_interfaces": {
+      "net/minecraft/class_1792": ["com.flechazo.jzxlib.common.extension.SlashBladeItemExtensions"]
+    }
   }
 }
