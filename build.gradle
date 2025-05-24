@@ -83,7 +83,7 @@ publishing {
     repositories {
         maven {
             name = "GitHubMaven"
-            url = uri("file://${projectDir}/repository") // 本地输出
+            url = uri("file://${projectDir}/FLMaven/repository") // 本地输出
         }
     }
 }
