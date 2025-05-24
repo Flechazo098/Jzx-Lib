@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "jzx-lib",
+  "version": "${version}",
+  "name": "Jzx-lib",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/jzx-lib/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.flechazo.jzxLib.client.JzxLibClient"
+    ],
+    "main": [
+      "com.flechazo.jzxlib.JzxLib"
+    ]
+  },
+  "mixins": [
+    "jzx-lib.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
